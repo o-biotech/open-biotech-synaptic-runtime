@@ -8,9 +8,9 @@ import {
   FathymSynapticPlugin,
 } from '@fathym/synaptic';
 import { IoCContainer } from '@fathym/ioc';
-import { EaCRuntimePlugin, EaCRuntimePluginConfig } from '@fathym/eac/runtime/plugins';
-import { EaCRuntimeConfig } from '@fathym/eac/runtime/config';
-import { EaCLocalDistributedFileSystemDetails } from '@fathym/eac-dfs';
+import { EaCRuntimeConfig, EaCRuntimePluginConfig } from '@fathym/eac/runtime/config';
+import { EaCRuntimePlugin } from '@fathym/eac/runtime/plugins';
+import { EaCLocalDistributedFileSystemDetails } from '@fathym/eac/dfs';
 import { EverythingAsCode } from '@fathym/eac';
 import { EaCDenoKVDetails, EverythingAsCodeDenoKV } from '@fathym/eac-deno-kv';
 import { EverythingAsCodeApplications } from '@fathym/eac-applications';
