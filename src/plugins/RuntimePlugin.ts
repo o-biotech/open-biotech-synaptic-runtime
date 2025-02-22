@@ -106,9 +106,14 @@ export default class RuntimePlugin implements EaCRuntimePlugin {
               FileRoot: './circuits/',
               Extensions: ['.ts'],
               WorkerPath: import.meta.resolve(
-                '@fathym/eac-dfs/workers/local',
+                '@fathym/eac/dfs/workers/local',
               ),
             } as EaCLocalDistributedFileSystemDetails,
+          },
+        },
+        $GlobalOptions: {
+          DFSs: {
+            PreventWorkers: true,
           },
         },
       },
