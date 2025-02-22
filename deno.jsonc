@@ -36,6 +36,7 @@
     "@langchain/community": "npm:@langchain/community@0.3.0",
     "@langchain/core": "npm:@langchain/core@0.3.1",
     "@langchain/langgraph": "npm:@langchain/langgraph@0.2.3",
+    "@o-biotech/common": "jsr:@o-biotech/common@0.0.5",
     "pdf-parse": "npm:pdf-parse@1.1.1",
     "@std/assert": "jsr:@std/assert@1.0.6",
     "@std/log": "jsr:@std/log@0.224.6",
