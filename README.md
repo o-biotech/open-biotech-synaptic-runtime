@@ -1,1 +1,1 @@
-# open-biotech-synaptic-runtime
+# synaptic-runtime
